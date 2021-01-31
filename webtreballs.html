@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treballs RIA Mari Carmen</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,500&display=swap" rel="stylesheet">
+    <style type="text/css">
+        <link rel="preconnect"href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"rel="stylesheet"><link rel="preconnect"href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"rel="stylesheet">
+
+        /*reset*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        html {
+            font-size: 20px;
+        }
+
+
+        header {
+            padding: 0 1.5em;
+            font-family: 'Raleway', medium;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #1082A9;
+            background-size: cover;
+            background-position: -2em;
+            background-image: url('img/s');
+            height: 70vh;
+        }
+
+        h1 {
+            font-size: 17vw;
+            line-height: 1em;
+            font-weight: 540;
+        }
+
+        h2 {
+            font-size: 7vw;
+            font-family: 'Raleway', bold;
+            line-height: 1.6;
+            font-weight: 500;
+            font-style: normal;
+
+        }
+
+
+        h3 {
+            font-size: 6vw;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 0 16px;
+            height: 150px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            background: #06DBA2;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6B0920;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 10em 1 0 1em;
+            font-family: 'Josefin', medium;
+            background: #FFD779;
+        }
+
+        section {
+            width: 100%;
+            margin: 0 0 33px 0;
+            display: flex;
+            flex-direction: column;
+            height: 200px;
+            background: white;
+        }
+
+        section figure {
+            padding: 0.8em 0.8em 0 0.8em;
+        }
+
+        section figure img {
+            width: 100%;
+            height: 280px;
+            object-position: bottom;
+            object-fit: cover;
+        }
+
+        section figcaption {
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 3em;
+            width: 100%;
+            height: 414px;
+            font-family: 'Raleway', black;
+            /*            background: #F7A4B7;*/
+        }
+
+        footer a {
+            color: #3B1C32;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .xxss {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .email {
+            text-align: center;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+
+            h1 {
+                font-size: 14vw;
+                line-height: 1em;
+                font-weight: 500;
+                font-family: 'Raleway', medium;
+            }
+
+            h2 {
+                font-size: 8vw;
+                font-family: 'Raleway', bold;
+                line-height: 2;
+                font-weight: 5;
+                font-style: bold;
+            }
+
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background: orange;
+            }
+
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 700px) {
+            body {
+                background: pink;
+            }
+
+            header {
+                padding: 11 0px;
+                width: auto;
+            }
+
+            nav {
+                padding: 0 0em;
+                position: sticky;
+                top: 0;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                height: 150px;
+                font-family: 'Raleway', medium;
+
+            }
+
+            h1 {
+                font-size: 9vw;
+                line-height: 1em;
+                font-weight: 700;
+            }
+
+            h2 {
+                font-size: 5vw;
+                text-align: left;
+            }
+
+            h3 {
+                font-size: 6vw;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 1300px;
+                width: 100%;
+            }
+
+            section {
+                width: 400px;
+                margin: 0 0 3em 0;
+                display: flex;
+                flex-direction: column;
+                height: 348px;
+                background: white;
+            }
+
+            .grid-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding-bottom: 6em;
+            height: 257px;
+            width: 100%;
+            font-size: 32;
+            font-family: 'Raleway', light;
+            background: pink;
+
+
+        }
+
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            body {
+                background: pink;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            body {
+                background: pink;
+
+
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1400px) {
+            body {
+                background: pink;
+            }
+
+            html {
+                font-size: 20px;
+            }
+
+            body {
+                background: pink;
+            }
+
+            header {
+                height: 100vh;
+                background-image: url('img/pattern_escritori.png');
+                background-position: top;
+                margin-left: 0px;
+                margin-right: auto;
+                width: 100%;
+                width left: inherit;
+            }
+
+            h1 {
+                font-size: 5vw;
+                line-height: 1em;
+                font-weight: 800;
+                padding: 0 0 0 10vw;
+            }
+
+            h2 {
+                font-size: 3vw;
+                width: 100%;
+                text-align: left;
+                padding: 0 0 0 30vw;
+            }
+
+            h3 {
+                font-size: 3vw;
+                padding: 0 0 0 30vw;
+            }
+
+            h1 br {
+                display: none;
+            }
+
+            nav {
+                position: relative;
+                justify-content: flex-start;
+                padding-left: 0em;
+                padding: 0 22em;
+            }
+
+            nav a {
+                font-size: 1.5em;
+                margin: 0 2em 0 2em;
+            }
+
+            section {
+                min-width: 20em;
+                max-width: 23em;
+                height: 23em;
+                margin: 0 2em 0 2em;
+            }
+
+            main {
+                height: 1400px;
+            }
+
+            section figure img {
+                height: 15em;
+                object-fit: cover;
+                object-position: center center;
+            }
+
+            section h4 {
+                font-size: 1.3em;
+            }
+
+            footer {
+                padding: 0 20em;
+                flex-direction: row;
+                font-size: 1.2em;
+            }
+
+            .xxss {
+                width: 75%;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+            .xxss a {
+                padding: 0 5em 0 0;
+            }
+
+            .email {
+                width: 25%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            section:nth-child(4) {
+                background: red;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Recursos Interactius<br> Aplicats</h1>
+        <h2>2gp - EASDAlcoi</h2>
+        <h3>Mari Carmen Martínez</h3>
+    </header>
+    <nav class="menu">
+        <a href="#">projectes</a>
+        <a href="#">contacte</a>
+    </nav>
+    <main class="main">
+        <div class="grid-container">
+            <a href="https://mari-stack.github.io/WorksPortfolio/p0.html">
+               <section>
+                <figure>
+                    <img src="img/Sin%20t%C3%ADtulo-1.jpg" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_lloc web</h4>
+                </figcaption>
+            </section>
+        </a>    
+               <section>
+                <figure>
+                    <img src="img/web.png" alt="#"><a href="#"></a>
+                </figure>
+                <figcaption>
+                    <h4>p1 web</h4>
+                </figcaption>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/Sin%20t%C3%ADtulo-1.png" alt="">
+                </figure>
+                <figcaption>
+                    <h4>p0_lloc web</h4>
+                </figcaption>
+            </section>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="xxss">
+            <a href="https://www.instagram.com/momentsm54">Insta</a>
+            <a href="#">Twitter</a>
+            <a href="https://www.facebook.com/maricarmen.martinezsolvas/">Facebook</a>
+        </div>
+        <div class="email">
+            <a href="maimartinez912@gmail.com">:-)
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
